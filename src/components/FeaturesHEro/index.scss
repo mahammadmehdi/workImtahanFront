@@ -1,0 +1,96 @@
+.featuresHero {
+    margin-top: 5%;
+    max-width: 100%;
+   
+    
+  .featuresHeroAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    .header {
+        text-align: center;
+        font-size: 43px;
+    }
+    .about {
+        text-align: center;
+        font-size: 16px;
+        color: #777777;
+        max-width: 730px;
+    }
+    .sort{
+        display: flex;
+        gap: 50px;
+        button{
+            width: 104px;
+            height: 41px;
+            background-color: #39cfca;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            &:hover{
+              background-color: #3279bb;
+              transition: 300ms;
+            }
+
+        }
+        input{
+            width: 300px;
+            height: 41px;
+        }
+    }
+    .cards {
+      width: 60%;
+      margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+      gap: 30px;
+      .pages {
+        width: 350px;
+        height: 295px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: #f1f9ff;
+        padding: 3%;
+        &:hover{
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          background-color: white;
+          transition: 300ms;
+        }
+        a{
+          color: #222222;
+        }
+      
+        .icon{
+font-size: 36px;
+
+        }
+        .name{
+font-size: 21px;
+color: #222222;
+        }
+        .desc{
+font-size: 16px;
+color: #777777;
+        }
+        .icon{
+            cursor: pointer;
+            font-size: 27px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sort {
+display: flex;
+flex-direction: column;
+align-items: center;
+  }
+}
+

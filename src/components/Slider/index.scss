@@ -1,0 +1,41 @@
+.swiper{
+    max-width: 60%;
+    margin: auto;
+    height: 50vh;
+    
+    
+        .swiper-pagination-bullet {
+            background-image: url("https://preview.colorlib.com/theme/educature/img/testimonial/t1.jpg.webp") !important;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: none;
+            }
+    .fancySpencerSlide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 40vh;
+        justify-content: center;
+        gap: 20px;
+        .number{
+
+        }
+        .name{
+font-size: 21px;
+
+        }
+        .about{
+width: 500px;
+text-align: center;
+font-size: 16px;
+color: #777777;
+        }
+        .icon{
+            display: flex;
+            color: #ffc000;
+        }
+    }
+}

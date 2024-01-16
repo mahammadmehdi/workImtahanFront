@@ -1,0 +1,47 @@
+.facultyMembersCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+    height: 317px;
+    background-color: white;
+    position: relative;
+    margin-top: 15%;
+    justify-content: space-between;
+    padding: 4%;
+    img{
+        width: 163px;
+        height: 163px;
+        position: absolute;
+        top: -40%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .name{
+font-size: 21px;
+        }
+        .job{
+            color: #777777;
+            font-size: 14px;
+    
+        }
+    }
+    .desc{
+        color: #777777;
+font-size: 16px;
+text-align: center;
+
+    }
+    .icon{
+        color: #777777;
+display: flex;
+gap: 30px;
+cursor: pointer;
+i:hover{
+color: black;
+}
+
+    }
+}

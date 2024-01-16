@@ -1,0 +1,54 @@
+.overPlatform {
+  max-width: 100%;
+  margin-top: 5%;
+display: flex;
+justify-content: center;
+  .overPlatformAll {
+    margin: auto;
+    display: flex;
+    max-width: 60%;
+    justify-content: space-between;
+    gap: 30px;
+    img {
+      max-width: 475px;
+      height: 435px;
+    }
+    .about {
+      display: flex;
+      flex-direction: column;
+      gap: 70px;
+      justify-content: center;
+      .header {
+        max-width: 540px;
+        font-size: 42px;
+        line-height: 52px;
+        text-align: left;
+      }
+      .text {
+        max-width: 540px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+      }
+      .btn {
+        width: 173px;
+        height: 42px;
+        border-radius: 5px;
+        background-color: #39cfca;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        &:hover{
+          background-color: #3279bb;
+          transition: 300ms;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .overPlatformAll {
+display: flex;
+flex-direction: column;
+  }
+}

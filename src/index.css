@@ -1,0 +1,9 @@
+.red{
+  color: red;
+}
+.swiper-pagination-bullet {
+  background-image: url("https://preview.colorlib.com/theme/educature/img/testimonial/t1.jpg.webp") !important;
+}
+body{
+  max-width: 100%;
+}
